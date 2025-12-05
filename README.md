@@ -1,4 +1,4 @@
-## Requirement
+## Requirements
 - Flask python
 - NodeJS
 
