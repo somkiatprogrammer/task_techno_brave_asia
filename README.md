@@ -1,3 +1,7 @@
+## Requirement
+- Flask python
+- NodeJS
+
 ## ⚙️ Installation
 
 1. Clone the repository:
@@ -26,14 +30,4 @@ npm start
 cd ..
 cd backend
 python app.py
-```
-
-```bash
-python scripts/data-augmentation/add_bg_with_augment.py
-```
-
-6. Run the model training notebook:
-
-```bash
-jupyter notebook train_model.ipynb
 ```
