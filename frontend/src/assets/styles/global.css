@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #007fa3;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.default-box, .login-box {
+    width: 420px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.show-pass {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background: #007fa3;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #006684;
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.links a {
+    color: #007fa3;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.f-right {
+    float: right;
+}
+
+.hint-box {
+  background: #e8f7fe;
+  border-left: 4px solid #007fa3;
+  padding: 12px 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+  color: #333;
+  font-size: 10px;
+}
